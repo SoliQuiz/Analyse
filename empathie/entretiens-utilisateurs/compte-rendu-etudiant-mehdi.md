@@ -3,13 +3,20 @@
 ## Compte rendu de l'interview d'empathie menée le 26/02/2026.
 **Objectif** : Identifier les points de frustration et les besoins techniques concrets des étudiants.
 
-## 1. Frustrations et Problèmes Techniques
-- **Accessibilité Mobile** : "On révise souvent dans les transports ou pendant les pauses, l'outil doit être fluide sur smartphone. Actuellement, certains formulaires sont illisibles sur petit écran."
-- **Instabilité des sessions** : Peur de perdre ses réponses en cas de micro-coupure internet ou si l'on change d'onglet par inadvertance.
-- **Temps Limité** : Besoin d'un compte à rebours visible pour ne pas se faire surprendre par la clôture automatique du test.
+## 1. Problèmes Vécus et Frustrations
 
-## 2. Clarté et Ergonomie
-- **Ambiguïté des questions** : "Parfois on ne sait pas si c'est une seule réponse possible ou plusieurs (Case à cocher vs Bouton radio)."
-- **Navigation** : Souhaite pouvoir revenir sur une question précédente avant la validation finale (possibilité de révision).
+- **Lecture difficile sur mobile** : Les questionnaires actuels (comme Google Forms) sont souvent illisibles ou mal adaptés sur petit écran, rendant très pénible les révisions dans les transports.
+- **Angoisse de la perte de données** : Le fait de perdre toutes ses réponses en cas de micro-coupure internet ou d'actualisation accidentelle de la page est une source majeure de stress.
+- **Clôtures brutales des tests** : Se faire couper sans avertissement clair du temps restant crée un sentiment d'injustice lors d'une évaluation.
+- **Ambiguïté de l'interface** : Souvent, il est impossible de deviner si une question attend une ou plusieurs réponses, induisant les étudiants en erreur par pur problème d'ergonomie.
+
+------------------------------------------------------------------------
+
+## 2. Besoins Fonctionnels et Ergonomiques
+
+- **Design "Mobile-first"** : Une interface parfaitement fluide et lisible sur smartphone.
+- **Auto-sauvegarde en temps réel** : Enregistrement continu des données saisies pour parer aux pertes de connexion.
+- **Composants d'interface évidents** : Une distinction visuelle claire entre les choix multiples (cases à cocher/checkbox) et les choix uniques (boutons radio).
+- **Gestion du temps et de la navigation** : Un compte à rebours toujours visible et la possibilité de naviguer en arrière pour réviser ses choix avant la soumission finale.
 
 ------------------------------------------------------------------------

@@ -13,16 +13,21 @@ skinparam usecase {
     ArrowColor #2E86C1
 }
 
+actor "Administrateur" as A
 actor "Formateur" as F
 actor "Étudiant" as E
 
 package "SoliQuiz - Sprint 1 (MVP)" {
+    usecase "Gérer les utilisateurs (Rôles)" as UC1_6
     usecase "S'authentifier (Base)" as UC1_5
     usecase "Créer la structure d'un QCM" as UC1_1
     usecase "Ajouter Questions et Choix" as UC1_2
     usecase "Réaliser le test (Passer QCM)" as UC1_3
     usecase "Calculer le score global (Auto)" as UC1_4
 }
+
+A --> UC1_6
+A --> UC1_5
 
 F --> UC1_5
 F --> UC1_1

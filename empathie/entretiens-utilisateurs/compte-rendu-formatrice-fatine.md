@@ -3,7 +3,15 @@
 ## Compte rendu de l'interview d'empathie menée avec le formateur Fatine le 19/02/2026. 
 **Objectif** : Recueillir les besoins liés à la gestion des QCM afin d’évaluer les connaissances des apprenants.
 
-## 1. Création et organisation des QCM
+## 1. Problèmes Vécus et Frustrations
+
+-   **Lourdeur logistique** : L'utilisation d'outils disparates (Google Forms pour évaluer, SoliLMS pour les notes) complique le quotidien pédagogique. 
+-   **Risque d'erreurs élevé** : Le report manuel systématique des notes d'un système à un autre génère souvent de légères erreurs de saisie qui peuvent frustrer les étudiants.
+-   **Suivi à l'aveugle** : Il est très compliqué de voir d'un simple coup d'œil qui de la classe n'a pas compris la notion du jour pour adapter le cours du lendemain, car les données ne sont pas centralisées sous forme de tableau de bord clairs.
+
+------------------------------------------------------------------------
+
+## 2. Besoins Fonctionnels : Création et organisation des QCM
 
 -   La formateurs doivent pouvoir créer des **QCM** facilement.
 

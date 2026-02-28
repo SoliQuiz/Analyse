@@ -17,6 +17,8 @@ Ce document détaille la planification agile du projet **SoliQuiz**, divisée en
     *   Le système valide les réponses et affiche un score total (ex: 15/20) immédiatement.
 5.  **UC1-5 : Authentication de base**
     *   Connexion simple pour identifier qui passe le test (Formateur vs Étudiant).
+6.  **UC1-6 : Gestion des utilisateurs (Administrateur)**
+    *   Activer et gérer les rôles des Formateurs et des Étudiants pour centraliser les accès.
 
 ---
 
@@ -38,3 +40,7 @@ Ce document détaille la planification agile du projet **SoliQuiz**, divisée en
     *   Optimisation de l'interface mobile-first.
 6.  **UC2-6 : Exportation vers SoliLMS (Optionnel/Vision)**
     *   Préparation des données pour l'intégration automatique des notes dans le LMS.
+7.  **UC2-7 : Tableau de bord de suivi global (Administrateur)**
+    *   Supervision centralisée avec statistiques du taux de réussite par cohorte et module.
+8.  **UC2-8 : Synchronisation API avec SoliLMS (Administrateur)**
+    *   Configuration du point d'entrée pour la synchronisation automatique globale avec SoliLMS.
