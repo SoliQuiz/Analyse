@@ -1,22 +1,18 @@
 @startuml
 skinparam actorStyle awesome
 left to right direction
-
 skinparam package {
     BackgroundColor White
     BorderColor #2C3E50
 }
-
 skinparam usecase {
     BackgroundColor #EBF5FB
     BorderColor #2E86C1
     ArrowColor #2E86C1
 }
-
 actor "Administrateur" as A
 actor "Formateur" as F
 actor "Étudiant" as E
-
 package "SoliQuiz - Sprint 1 (MVP)" {
     usecase "Gérer les utilisateurs (Rôles)" as UC1_6
     usecase "S'authentifier (Base)" as UC1_5
@@ -25,16 +21,16 @@ package "SoliQuiz - Sprint 1 (MVP)" {
     usecase "Réaliser le test (Passer QCM)" as UC1_3
     usecase "Calculer le score global (Auto)" as UC1_4
 }
-
 A -- UC1_6
 A -- UC1_5
-
 F -- UC1_5
 F -- UC1_1
 F -- UC1_2
-
 E -- UC1_5
 E -- UC1_3
-
+UC1_1 ..> UC1_2 : <<include>>
 UC1_3 ..> UC1_4 : <<include>>
+UC1_6 ..> UC1_5 : <<include>>
+UC1_1 ..> UC1_5 : <<include>>
+UC1_3 ..> UC1_5 : <<include>>
 @enduml
