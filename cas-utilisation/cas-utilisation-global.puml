@@ -31,19 +31,19 @@ package "SoliQuiz System" {
     usecase "Accéder au feedback détaillé/correction" as UC8
 }
 
-A --> UC9
-A --> UC10
-A --> UC11
+A -- UC9
+A -- UC10
+A -- UC11
 
-F --> UC1
-F --> UC2
-F --> UC3
-F --> UC5
+F -- UC1
+F -- UC2
+F -- UC3
+F -- UC5
 
-E --> UC4
-E --> UC5
-E --> UC7
-E --> UC8
+E -- UC4
+E -- UC5
+E -- UC7
+E -- UC8
 
 UC4 ..> UC6 : <<include>>
 @enduml

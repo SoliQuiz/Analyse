@@ -28,16 +28,16 @@ package "SoliQuiz - Sprint 2 (Avancé)" {
     usecase "Exporter les notes vers SoliLMS" as UC2_6
 }
 
-A --> UC2_7
-A --> UC2_8
+A -- UC2_7
+A -- UC2_8
 
-F --> UC2_1
-F --> UC2_4
-F --> UC2_6
+F -- UC2_1
+F -- UC2_4
+F -- UC2_6
 
-E --> UC2_3
-E --> UC2_4
-E --> UC2_5
+E -- UC2_3
+E -- UC2_4
+E -- UC2_5
 
 UC2_5 --|> UC2_1 : <<extende>>
 @enduml

@@ -26,15 +26,15 @@ package "SoliQuiz - Sprint 1 (MVP)" {
     usecase "Calculer le score global (Auto)" as UC1_4
 }
 
-A --> UC1_6
-A --> UC1_5
+A -- UC1_6
+A -- UC1_5
 
-F --> UC1_5
-F --> UC1_1
-F --> UC1_2
+F -- UC1_5
+F -- UC1_1
+F -- UC1_2
 
-E --> UC1_5
-E --> UC1_3
+E -- UC1_5
+E -- UC1_3
 
 UC1_3 ..> UC1_4 : <<include>>
 @enduml
