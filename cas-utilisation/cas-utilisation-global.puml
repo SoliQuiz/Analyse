@@ -13,7 +13,7 @@ skinparam usecase {
 actor "Administrateur" as A
 actor "Formateur" as F
 actor "Étudiant" as E
-package "SoliQuiz System" {
+package "SoliQuiz System (Web & APK)" {
     usecase "Gérer les utilisateurs (Rôles)" as UC9
     usecase "Voir le tableau de bord global" as UC10
     usecase "Configuration API SoliLMS" as UC11
