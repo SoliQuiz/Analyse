@@ -3,21 +3,20 @@
 ## 1. Présentation du projet
 
 **Nom du projet :** SoliQuiz  
-**Type de projet :** Application web d'auto-évaluation et de création de QCM (Questionnaires à Choix Multiples).  
+**Type de projet :** Application web de gestion d'évaluations et de création de QCM (Questionnaires à Choix Multiples).  
 **Bénéficiaire :** Bootcamp / Centre de formation (Formateurs, Étudiants et Administration).  
 
-SoliQuiz est une plateforme pédagogique centralisée permettant la création, le passage et l'analyse de QCM. Son but est d'évaluer de manière granulaire l'acquisition des compétences sur des micro-objectifs d'apprentissage.
+SoliQuiz est une plateforme pédagogique centralisée permettant la création, la passation et l'analyse de QCM. Son but est d'offrir une visibilité granulaire sur l'acquisition des compétences en liant chaque évaluation aux micro-objectifs d'apprentissage.
 
 ---
 
 ## 2. Contexte et Problématique
 
-Actuellement, les formateurs utilisent des solutions tierces génériques (comme Google Forms) pour évaluer quotidiennement les apprenants.
-Cette approche engendre de nombreuses difficultés :
-- **Perte de temps logistique** : Les formateurs doivent ressaisir manuellement les notes de Google Forms vers la plateforme centrale, SoliLMS.
-- **Rupture pédagogique** : Manque d'intégration directe entre les QCM, les sessions de cours spécifiques, et les micro-objectifs (SoliLMS).
-- **Insatisfaction des étudiants** : Interfaces non adaptées au mobile, feedback "sec" sans explication (un simple score type "12/20"), risque de perte des données en cas de déconnexion.
-- **Gestion asymétrique** : La direction pédagogique ne possède pas de vue globale standardisée permettant de piloter facilement et en temps réel le taux de réussite global des cohortes.
+Actuellement, l'utilisation de solutions tierces génériques (comme Google Forms) pour évaluer quotidiennement les apprenants crée un **aveuglement pédagogique** majeur :
+- **Absence de granularité** : Manque d'intégration directe entre les questions posées et les micro-objectifs pédagogiques, empêchant un suivi précis des compétences.
+- **Feedback "sec" et tardif** : Les étudiants reçoivent des scores globaux sans explications, ce qui freine leur auto-correction et leur progression.
+- **Invisibilité pour le pilotage** : La direction pédagogique et les formateurs ne peuvent pas identifier en temps réel les lacunes spécifiques de la cohorte pour ajuster les cours.
+- **Friction administrative** : Le report manuel des notes vers SoliLMS est chronophage et source d'erreurs, retardant encore davantage le cycle de feedback.
 
 ---
 
